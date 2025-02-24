@@ -149,7 +149,7 @@
 .content__section {
   display: grid;
   padding-inline: 10px;
-  gap: 20px;
+  gap: 10px;
 }
 
 .content__title {
@@ -235,7 +235,9 @@
     min-block-size: 1024px;
     margin-block-end: 60px;
   }
-
+  .content__section {
+    gap: 20px;
+  }
   .header__theme-menu {
     margin-block-end: 52px;
     margin-inline-end: 20px;
