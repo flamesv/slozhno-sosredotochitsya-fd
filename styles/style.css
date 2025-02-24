@@ -19,7 +19,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, 1fr);
-  min-block-size: 668px;
+  min-block-size: 688px;
   height: 100vh;
   margin-block-end: 40px;
 }
@@ -214,7 +214,7 @@
   justify-content: center;
   position: relative;
   block-size: 100vh;
-  min-block-size: 668px;
+  min-block-size: 688px;
 }
 
 .footer__title {
@@ -237,6 +237,8 @@
   }
   .content__section {
     gap: 20px;
+    grid-template-columns: 32% repeat(2, 1fr);
+    padding-inline: 20px;
   }
   .header__theme-menu {
     margin-block-end: 52px;
@@ -271,12 +273,6 @@
   .content {
     gap: 80px;
   }
-
-  .content__section {
-    grid-template-columns: 32% repeat(2, 1fr);
-    padding-inline: 20px;
-  }
-
   .content__title {
     max-inline-size: 236px;
     grid-column: 1 / 2;
