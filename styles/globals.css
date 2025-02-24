@@ -40,3 +40,8 @@ a {
   font-size: inherit;
   line-height: inherit;
 }
+
+figure {
+  margin: 0px;
+  padding: 0px;
+}

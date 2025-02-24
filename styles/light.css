@@ -9,8 +9,49 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --bg-color: #FF8DCB;
+  --bg-image: url(../images/cover-image-light.png);
+  --title-color: #FFC2E6;
+  --accent-color: #353430;
+  --text-bg-color: #FF8DCB;
+  --h2-color: #353430;
+  --h3-color: #353430;
+  --text-color: #353430;
+  --font-family: "IBM Plex Mono";
+  --button-hover-color: rgb(50 49 45 / 0.4);
+  --font-weight-normal: 400;
+  --font-weight-heading: 700;
+  --theme-menu-font-size: 18px;
+  --line-height: 23.4px;
+  --line-height-title: 96px;
+  --text-align: left;
+  --theme-menu-gap: 10px;
+  --rec-display: none;
 }
 
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color: #FF8DCB;
+    --bg-image: url(../images/cover-image-light.png);
+    --title-color: #FFC2E6;
+    --accent-color: #353430;
+    --text-bg-color: #FF8DCB;
+    --h2-color: #353430;
+    --h3-color: #353430;
+    --text-color: #353430;
+    --font-family: "IBM Plex Mono";
+    --button-hover-color: rgb(50 49 45 / 0.4);
+    --font-weight-normal: 400;
+    --font-weight-heading: 700;
+    --theme-menu-font-size: 18px;
+    --line-height: 23.4px;
+    --line-height-title: 96px;
+    --text-align: left;
+    --theme-menu-gap: 10px;
+    --rec-display: none;
+  }
 }
