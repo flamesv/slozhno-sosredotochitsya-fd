@@ -272,7 +272,7 @@
   }
   .header__description {
     max-inline-size: 364px;
-    margin: 41px 20px;
+    margin: 42px 20px;
     font-weight: var(--font-weight-heading, 700);
     color: var(--h3-color, #000028);
     line-height: 1.3em;
