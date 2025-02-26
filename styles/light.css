@@ -18,6 +18,7 @@
   --content-title-color-accent: #353430;
   --text-color: #353430;
   --button-hover-color: rgb(50 49 45 / 0.4);
+  --rec-display: none;
 }
 
 .theme-light .page {
@@ -35,5 +36,6 @@
     --content-title-color-accent: #353430;
     --text-color: #353430;
     --button-hover-color: rgb(50 49 45 / 0.4);
+    --rec-display: none;
   }
 }
